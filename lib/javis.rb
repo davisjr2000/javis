@@ -10,15 +10,16 @@ class Javis
 
   def self.stop
     unless false
-      dont_stop
+      self.dont_stop
     end
   end
 
   private
 
-  def dont_stop
+  def self.dont_stop
     10.times do
       puts '༼ つ ✿◕‿◕✿༽つ╰⋃╯'
+      sleep 1
     end
   end
 
